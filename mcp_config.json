@@ -1,0 +1,14 @@
+{
+  "mcpServers": {
+    "weather-anomaly-tracker": {
+      "command": "uvx",
+      "args": [
+        "smart-weather-mcp",
+        "--regions",
+        "agricultural-zones",
+        "--metrics",
+        "humidity,temperature,soil_moisture"
+      ]
+    }
+  }
+}

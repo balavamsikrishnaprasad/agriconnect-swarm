@@ -1,0 +1,10 @@
+{
+  "name": "AgriConnect Swarm",
+  "description": "Autonomous Multi-Agent orchestration framework designed to protect under-resourced, small-scale farmers from crop failures due to sudden climate and pest threats.",
+  "requestFramePermissions": [
+    "microphone"
+  ],
+  "majorCapabilities": [
+    "MAJOR_CAPABILITY_SERVER_SIDE_GEMINI_API"
+  ]
+}
