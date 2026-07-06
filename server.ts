@@ -343,10 +343,11 @@ Be very friendly, empathetic, and practical. Keep your answers brief and convers
       res.sendFile(path.join(distPath, 'index.html'));
     });
   }
+const PORT = process.env.PORT || 3000;
 
-  httpServer.listen(PORT, '0.0.0.0', () => {
-    console.log(`Server running on port ${PORT}`);
-  });
+httpServer.listen(PORT, '0.0.0.0', () => {
+  console.log(`Server running on port ${PORT}`);
+});
 }
 
 startServer();
